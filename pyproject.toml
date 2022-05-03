@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ws-django-suit"
+version = "0.2.28.1"
+description = "Modern theme for Django admin interface."
+authors = ["Kaspars Sprogis <info@djangosuit.com>"]
+homepage = "http://djangosuit.com"
+
+
+packages = [
+    { include = "suit", from="." },
+]
+
+[[tool.poetry.source]]
+name = "ws"
+url = "https://pypi.wheel-size.com/simple/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+django = "^3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
