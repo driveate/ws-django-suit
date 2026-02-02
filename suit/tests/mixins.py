@@ -13,11 +13,7 @@ try:
 except AttributeError:
     pass
 
-try:
-    from django.core.urlresolvers import reverse
-except ImportError:
-    # For Django >= 2.0
-    from django.urls import reverse
+from django.urls import reverse
 
 
 class UserTestCaseMixin(TestCase):
