@@ -1,6 +1,6 @@
 [project]
 name = "ws-django-suit"
-version = "1.0.0"
+version = "1.0.1"
 description = "Modern theme for Django admin interface."
 authors = [
     { name = "Kaspars Sprogis", email = "info@djangosuit.com" }
